@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { Button } from '@mui/material';
 
-import { createTheme, alpha, getContrastRatio } from '@mui/material/styles';
+import "../index.css"
 
-const violetBase = '#7F00FF';
-const violetMain = alpha(violetBase, 0.7);
+// import { colorTheme } from '../utils/theme'
 
 export default function Header () {
 
   return (
-    <div>
-
+    <div >
       <Button
+      className="headerButtons"
       variant="contained"
       onClick={() => {alert('clicked')}}
 
@@ -38,4 +37,4 @@ export default function Header () {
       </Button>
     </div>
   )
-
+}
