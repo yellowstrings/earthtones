@@ -18,6 +18,23 @@
   border-radius: 75px;
 }
 
+.video-responsive {
+  overflow: hidden;
+  /* padding-bottom: 56.25%; */
+  /* position: relative; */
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 25%;
+  top: 0;
+  margin-top: 12.5%;
+  height: 50%;
+  width: 50%;
+  justify-content: center;
+  position: absolute;
+}
+
 .headerButtons {
   background-color: #9CAF88;
   color: rgb(36, 26, 23);
