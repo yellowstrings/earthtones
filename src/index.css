@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities; */
 
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  min-height: 100vh;
+}
+
+.logo {
+  background-color: #343e29;
+  color: white;
+  font-size: 26px;
+  margin-top: 2%;
+  padding: 2% 7%;
+  border-radius: 75px;
+}
+
 .headerButtons {
-  color: "#9CAF88"
+  background-color: #9CAF88;
+  color: rgb(36, 26, 23);
+  margin-top: 2%;
+  font-size: 22px;
+  padding: 0.5% 1%;
+  border-radius: 75px;
+  cursor: pointer;
+  border: none;
+}
+
+.marginHorizontal {
+  margin-left: 7%;
+  margin-right: 7%;
 }

@@ -5,36 +5,47 @@ import "../index.css"
 
 // import { colorTheme } from '../utils/theme'
 
-export default function Header () {
+const Header = () => {
 
   return (
-    <div >
-      <Button
-      className="headerButtons"
-      variant="contained"
+    <div className="headerContainer">
+      <button
+      type="button"
+      className="headerButtons marginHorizontal"
       onClick={() => {alert('clicked')}}
-
       >
         about
-      </Button>
-      <Button
-        variant="contained"
-        onClick={() => {alert('clicked')}}
-        >
+      </button>
+      <button
+      type="button"
+      className="headerButtons marginHorizontal"
+      onClick={() => {alert('clicked')}}
+      >
         tech
-      </Button>
-      <Button
-        variant="contained"
-        onClick={() => {alert('clicked')}}
+      </button>
+      <button
+      type="button"
+      className="logo"
+      onClick={() => {alert('clicked')}}
+      >
+        earth tones
+      </button>
+      <button
+      type="button"
+      className="headerButtons marginHorizontal"
+      onClick={() => {alert('clicked')}}
       >
         tour
-        </Button>
-      <Button
-      variant="contained"
+      </button>
+      <button
+      type="button"
+      className="headerButtons marginHorizontal"
       onClick={() => {alert('clicked')}}
       >
         contact
-      </Button>
+      </button>
     </div>
   )
 }
+
+export default Header;
